@@ -1,0 +1,12 @@
+.b-flex{
+  display: flex;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
