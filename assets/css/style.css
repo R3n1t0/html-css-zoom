@@ -27,7 +27,7 @@ main{
 main .box{
   position: relative;
   width: 190px;
-  height: 80px;
+  height: 85px;
   margin: 0 1px 15px 1px;
   background-image: url(https://picsum.photos/200);
   background-size: cover;
@@ -43,6 +43,30 @@ main .box .user-name{
   color: #fcfeff;
   background-color: rgba(0, 0, 0 , .5);
   font-size: 12px;
+}
+
+main::-webkit-scrollbar {
+  width: 10px;
+}
+
+main::-webkit-scrollbar-track {
+  background: rgb(179, 177, 177);
+  border-radius: 10px;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: rgb(136, 136, 136);
+  border-radius: 10px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 100, 100);
+  border-radius: 10px;
+}
+
+main::-webkit-scrollbar-thumb:active {
+  background: rgb(68, 68, 68);
+  border-radius: 10px;
 }
 /* / MAIN */
 
@@ -95,3 +119,4 @@ footer .sect .action .image:hover i{
   color: #4bc800;
 }
 /*/ FOOTER */
+
